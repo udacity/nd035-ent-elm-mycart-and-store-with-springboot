@@ -1,0 +1,10 @@
+package com.udacity.store.model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "products")
+
+public class Product {
+// TODO: Add the details of the product class
+}
