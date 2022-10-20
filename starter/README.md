@@ -38,7 +38,7 @@ The back-end is all about security and connecting the front-end to H2 database d
 
 1. Load the application into InteliJ
 2. Right click on StoreApplication and select run or from the cmd line use `mvn spring-boot:run`
-3. The application will be running on  `http://localhost:3005/`
+3. The application will be running on  `http://localhost:8080/`
 
 ## The Frontend
 Your tech lead has done a thorough job developing HTML templates for the required application pages. They have included fields, modal forms, success and error message elements, as well as styling and functional components using Bootstrap as a framework. You must edit these templates and insert Angular components and services to supply the back-end data and functionality described by the following individual page requirements:
@@ -69,8 +69,8 @@ When a customer submits a cart they are provided with the summary of the cart. T
 
 1. Navigate to /webapp/angular-frontend
 2. Install dependencies with `npm install`.
-3. Run `ng serve --port 3000 ` for a dev server.
-4. Navigate to `http://localhost:3000/`.
+3. Run `ng serve` for a dev server.
+4. Navigate to `http://localhost:4200/`.
 
 ## Testing
 The QA team at MyStore carries out extensive user testing. Still, your tech lead wants you to write some simple Selenium tests to verify user-facing functionality and prove that your code is feature-complete before the testers get their hands on it.
