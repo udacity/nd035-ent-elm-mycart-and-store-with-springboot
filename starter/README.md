@@ -79,3 +79,22 @@ The QA team at MyStore carries out extensive user testing. Still, your tech lead
 * Write test for the cart functionality. 
 * Write a test that verifies that the product description is displayed when a user select an item.
 * Write test to verify that a confirmation dialog is displayed when an item is added to the cart.
+
+## Files that need to be Updated to complete the project 
+### Backend 
+OrderController
+ProductController
+Order
+Product
+StoreApplication
+
+### Frontend
+cart.component.ts
+product-item-component-html
+product-item-detail.component.ts
+product-item-detail.component.html
+Order.ts
+Product.ts
+Product.service.ts
+cart.service.ts
+product.service.ts

@@ -28,9 +28,9 @@ export class CartComponent implements OnInit {
   getCartTotal(cart: any): number {
     let sum = 0;
 
-    cart.forEach((item: any) => sum += (item.amount * item.price));
+   //TODO Sum up total cart price
 
-    return Math.round(sum * 100) / 100;
+    return
   }
 
   modelChanged(product: any): void {
