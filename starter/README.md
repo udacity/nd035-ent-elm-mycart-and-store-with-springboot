@@ -7,17 +7,16 @@ You have been hired to develop online for the company MyStore. The application w
 3. Online cart where items can be added. When an item is added the cart will update the total cart price.
 4. Checkout page that accepts the customers name, address and credit card information (16 digit number).
 
-MyStore wants you to focus on the skill you developed within this court by building a web application. You will need to develop the server and website and tests. However, you will not have to worry about deploying the application. MyStore will handle that work.
+MyStore wants you to focus on the skill you developed within this court by building a web application. You will need to develop the server and website. However, you will not have to worry about deploying the application. MyStore will handle that work.
 
 ## Starter Project
 A senior developer is assigned to be your tech lead and mentor, and they put together a starter project for you. It's a Maven project configured for all the dependencies the project requires, though you should feel free to add any additional dependencies you might require. You can download or clone the starter repository here.
 
 ## Requirements and Roadmap
-There will be three layers of the application you will need to implement.
+There will be two layers of the application you will need to implement.
 
 1. The back-end with Spring Boot
 2. The front-end with Angular
-3. Application tests with Selenium
 
 ## The Back-End
 The back-end is all about security and connecting the front-end to H2 database data and actions.
@@ -72,14 +71,6 @@ When a customer submits a cart they are provided with the summary of the cart. T
 3. Run `ng serve` for a dev server.
 4. Navigate to `http://localhost:4200/`.
 
-## Testing
-The QA team at MyStore carries out extensive user testing. Still, your tech lead wants you to write some simple Selenium tests to verify user-facing functionality and prove that your code is feature-complete before the testers get their hands on it.
-
-* Write tests for the product list.
-* Write test for the cart functionality. 
-* Write a test that verifies that the product description is displayed when a user select an item.
-* Write test to verify that a confirmation dialog is displayed when an item is added to the cart.
-
 ## Files that need to be Updated to complete the project 
 ### Backend 
 OrderController
@@ -95,6 +86,5 @@ product-item-detail.component.ts
 product-item-detail.component.html
 Order.ts
 Product.ts
-Product.service.ts
 cart.service.ts
 product.service.ts
