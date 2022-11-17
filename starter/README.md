@@ -73,18 +73,18 @@ When a customer submits a cart they are provided with the summary of the cart. T
 
 ## Files that need to be Updated to complete the project 
 ### Backend 
-OrderController
-ProductController
-Order
-Product
-StoreApplication
+* OrderController
+* ProductController
+* Order
+* Product
+* StoreApplication
 
 ### Frontend
-cart.component.ts
-product-item-component-html
-product-item-detail.component.ts
-product-item-detail.component.html
-Order.ts
-Product.ts
-cart.service.ts
-product.service.ts
+* cart.component.ts
+* product-item-component-html
+* product-item-detail.component.ts
+* product-item-detail.component.html
+* Order.ts
+* Product.ts
+* cart.service.ts
+* product.service.ts
