@@ -72,19 +72,64 @@ When a customer submits a cart they are provided with the summary of the cart. T
 4. Navigate to `http://localhost:4200/`.
 
 ## Files that need to be Updated to complete the project 
-### Backend 
-* OrderController
-* ProductController
-* Order
-* Product
-* StoreApplication
+### Project Backend: Files and Tasks
 
-### Frontend
-* cart.component.ts
-* product-item-component-html
-* product-item-detail.component.ts
-* product-item-detail.component.html
-* Order.ts
-* Product.ts
-* cart.service.ts
-* product.service.ts
+```bash
+### Backend Tasks to implement
+nd035-ent-elm-mycart-and-store-with-springboot
+└── starter
+    ├── src/main                    
+        ├── java/com/udacity/store
+                ├── controller       
+                    ├── OrderController    #TODO
+                    └── ProductController  #TODO
+                ├── model        
+                    ├── Order              #TODO
+                    └── Product            #TODO           
+                ├── repository       
+                    ├── OrderRepository    
+                    └── ProductRepository  
+                ├── security
+                    └── SpringSecurityConfig        
+                └── StoreApplication       #TODO
+```
+
+### Project Frontend: Files & Tasks
+
+```bash
+# Frontend Tasks to Implement
+nd035-ent-elm-mycart-and-store-with-springboot
+└── starter
+    ├── src/main                    
+        ├── java/com/udacity/store
+        ├── resources
+        └── webapp/angular-frontend
+            ├── e2e
+            └── src
+                ├── app
+                    ├── components
+                        ├── cart
+                            └── cart.component.ts   #TODO 
+                        ├── confirmation
+                        ├── product-item-detail
+                            ├── product-item-detail.component.html #TODO
+                            └── product-item-detail.component.ts   #TODO 
+                        ├── product-item
+                            └── product-item.component.html    #TODO
+                        ├── product-list
+                    ├── layout/header
+                    ├── models
+                            ├── Order.ts        #TODO
+                            └── Product.ts      #TODO 
+                    └── services
+                            ├── cart.service.ts     #TODO
+                            └── product.service.ts  #TODO 
+                ├── assets
+                ├── environments
+                ├── favicon
+                ├── index.html
+                ├── main.ts
+                ├── polyfills.ts
+                ├── styles.css
+                └── test.ts        
+```
