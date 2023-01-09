@@ -234,7 +234,7 @@
     "jsesc": "^2.5.2",
     "json-parse-even-better-errors": "^2.3.1",
     "json-schema-traverse": "^1.0.0",
-    "json5": "^2.2.1",
+    "json5": "^2.2.2",
     "jsonc-parser": "^3.1.0",
     "karma-source-map-support": "^1.4.0",
     "kind-of": "^6.0.3",
